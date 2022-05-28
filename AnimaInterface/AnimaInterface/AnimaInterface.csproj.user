@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="ElementInterface\AddNewCommentElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ElementInterface\LoadElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ElementInterface\LoadInInterfaceInfoElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ElementInterface\SortElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ElementInterface\StatElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ElementInterface\SubscribeList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\AccountPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\AddNewVideoPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\AuthPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\RegistrPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\SelectCinemaPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\SelectSerealPAge.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\SubscribePayPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ElementInterface\AddNewCommentElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ElementInterface\LoadElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ElementInterface\LoadInInterfaceInfoElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ElementInterface\SortElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ElementInterface\StatElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ElementInterface\SubscribeList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\AccountPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\AddNewVideoPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\AuthPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\RegistrPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\SelectCinemaPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\SelectSerealPAge.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\SubscribePayPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

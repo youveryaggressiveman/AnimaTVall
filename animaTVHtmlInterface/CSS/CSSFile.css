@@ -1,0 +1,123 @@
+.body{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: #49021F;
+}
+.header{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 4px 5px #000;
+    background-color: black;
+}
+.headerButton{
+    float: right;
+    display: inline;
+    color: #49021F;
+}
+.headerButton h1{
+    float: right;
+    padding:15px;
+    display: inline;
+}
+.headerButton h1:hover{
+    color: #FF3366;
+    cursor: pointer;
+}
+.logo{
+    padding: 5px;
+    display: inline;
+    position: absolute;
+    width: auto;
+    color: #49021F 
+}
+.auth{
+    margin: 40px;
+    height: 500px;
+    width: 650px;
+    margin-right: -50%;
+    left: 50%;
+    padding: 50px;
+    border: 2px solid #FF3366;
+    border-width: 1px;
+    border-radius: 8px;
+}
+.auth p{
+    cursor:default;
+}
+.auth h1{
+    cursor:default;
+}
+.footer{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    color: #FF3366;
+    font-size: 15px;
+    padding: 10px;
+}
+.footer h1{
+    margin-left: 30px;
+
+}
+.border{ 
+    border-radius: 3px;
+    border: 1px solid #FF3366;
+    height: 0,5px;
+    margin: 50px auto;
+    width: auto;
+}
+.button:hover{
+    cursor: crosshair;
+    background-color: white;
+}
+.button{
+    background-color: #FF3366;
+    color: black;
+    width: 200px;
+    border-radius: 6px;
+    height: 40px;
+    float: right;
+    border: 1px  solid black;
+}
+.authCenter{
+    display: block;
+}
+.authCenter input{
+    border-radius: 3px;
+    display: block;
+    margin-top: -15px;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 25px;
+}
+.authCenter p{
+    font-size: 25px;
+    display: block;
+    color: #FF3366;
+}
+.authBot{
+    display: block;
+    width: 600px;
+}
+.authTop{
+    font-size: 25px;
+    color: black
+}
+.authTop p:active{
+    color: #FF3366;
+    text-decoration: solid underline #FF3366;
+}
+.authTop p:hover{
+    cursor: pointer;
+}
+.authTop p{
+    float: left;
+    margin: 10px;
+}

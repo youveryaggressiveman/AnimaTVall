@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kernel", "Kernel", "{D1E5C7E1-43CA-4AF5-9714-250DCE6961DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{BBA2450E-5AE9-4A2B-BFA0-10CD7FE61970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{090B87BB-DC7C-439D-8EE3-2B6A0ACCB55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaTV.Core", "LibraryAnimaTV\AnimaTV.Core.csproj", "{316D8A8A-5222-453A-9D95-23CE4E20F45C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C} = {D1E5C7E1-43CA-4AF5-9714-250DCE6961DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852E0AC5-7A4C-4A44-B066-D87F743E965B}
+	EndGlobalSection
+EndGlobal

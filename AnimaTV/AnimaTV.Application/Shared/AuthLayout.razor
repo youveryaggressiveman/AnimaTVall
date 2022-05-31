@@ -1,0 +1,37 @@
+﻿@inherits LayoutComponentBase
+
+<h2>Kargin</h2>
+<input @bind-value="login" />
+<input @bind-value="password" />
+<button @onclick="authCommand">Enter</button>
+<h1>@result</h1>
+
+
+@code {
+    @using System.Text.Json
+    @using AnimaTV.Persistance.Entity
+    @using System.Text
+
+    public string login;
+    public string password;
+    public string result;
+    public async void authCommand()
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            var jsonObject = JsonSerializer.Serialize<User>(new User() { NickName = login, Password = password });
+            var url = "https://localhost:44367/api/Users/auth?login=" + login + "&password=" + password;
+
+            var content = new StringContent(jsonObject, Encoding.UTF8, "application/json");
+            content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+
+            var stringTask = await client.PostAsync(url, content);
+            
+
+            if (stringTask.IsSuccessStatusCode)
+            {
+                result = await stringTask.Content.ReadAsStringAsync();
+            }
+        }
+    }
+}

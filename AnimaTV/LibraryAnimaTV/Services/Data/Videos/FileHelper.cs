@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AnimaTV.Core.Data.Model.Enums;
+using AnimaTV.Persistance.Services.Data.Videos;
+using System;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AnimaTV.Core.Data.Model.Enums;
 
 namespace AnimaTV.Core.Services.Data.Videos
 {
@@ -26,24 +24,24 @@ namespace AnimaTV.Core.Services.Data.Videos
 
         public bool AddNewFile(string folderID, string fileSource)
         {
-           var target = _directory.GetDirectories().FirstOrDefault(d => d.Name == folderID);
+            var target = _directory.GetDirectories().FirstOrDefault(d => d.Name == folderID);
 
-           if (target != null)
-           {
-               
-               //TODO: Реализовать согласно подключенной библиотеке
-               var file = new FileInfo(fileSource);
-               if (file.Exists)
-               {
-                   file.CopyTo(target.FullName);
+            if (target != null)
+            {
 
-                   return true;
-               }
+                //TODO: Реализовать согласно подключенной библиотеке
+                var file = new FileInfo(fileSource);
+                if (file.Exists)
+                {
+                    file.CopyTo(target.FullName);
 
-               return false;
-           }
+                    return true;
+                }
 
-           return false;
+                return false;
+            }
+
+            return false;
         }
 
         public bool AddNewFile(VideoType type, string fileSource, string folderID)

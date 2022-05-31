@@ -1,0 +1,12 @@
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\AnimaTV.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\AnimaTV.Core.AssemblyInfoInputs.cache
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\AnimaTV.Core.AssemblyInfo.cs
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\AnimaTV.Core.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\bin\Debug\net5.0\AnimaTV.Core.deps.json
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\bin\Debug\net5.0\AnimaTV.Core.dll
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\bin\Debug\net5.0\ref\AnimaTV.Core.dll
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\bin\Debug\net5.0\AnimaTV.Core.pdb
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\AnimaTV.Core.dll
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\ref\AnimaTV.Core.dll
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\AnimaTV.Core.pdb
+C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Debug\net5.0\AnimaTV.Core.csproj.AssemblyReference.cache

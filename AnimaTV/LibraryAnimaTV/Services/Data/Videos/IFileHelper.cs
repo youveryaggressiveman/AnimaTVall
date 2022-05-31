@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AnimaTV.Core.Data.Model.Enums;
+﻿using AnimaTV.Core.Data.Model.Enums;
 
-namespace AnimaTV.Core.Services.Data.Videos
+namespace AnimaTV.Persistance.Services.Data.Videos
 {
     public interface IFileHelper
     {

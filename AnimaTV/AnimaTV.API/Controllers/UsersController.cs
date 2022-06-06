@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AnimaTV.Core.Services.Errors;
+using AnimaTV.Core.Services.Errors.NullReferenceException;
+using AnimaTV.Persistance.Mongo.Model;
 
 namespace AnimaTV.API.Controllers
 {
@@ -14,25 +17,37 @@ namespace AnimaTV.API.Controllers
     public class UsersController : ControllerBase
     {
         private readonly animatv_kernelContext _context;
-        private readonly protected IAuthService _authService;
+        private readonly IAuthService _authService;
+        private readonly IErrorService _errorService;
 
-        public UsersController(animatv_kernelContext context, IAuthService authService)
+        public UsersController(animatv_kernelContext context, IAuthService authService, IErrorService errorService)
         {
             _context = context;
             _authService = authService;
+            _errorService = errorService;
         }
 
         [Route("getUserByToken")]
         [HttpPost]
         public async Task<IActionResult> GetUserByToken(string token)
         {
-          return Ok((_authService as AuthService).GetCashedUser(token));
+            if ((_errorService as NullReferenceExceptionService).CheckError(new object[] {token}))
+            {
+                return Ok((_authService as AuthService).GetCashedUser(token));
+            }
+
+            throw new NullReferenceException();
         }
 
         [Route("auth")]
         [HttpPost]
         public async Task<IActionResult> Auth(string login, string password, bool isSave)
         {
+            if (!(_errorService as NullReferenceExceptionService).CheckError(new object[] {login, password, isSave}))
+            {
+                throw new NullReferenceException();
+            }
+
             var targetList = await _context.Users.Where(u => u.NickName == login).ToListAsync<User>();
 
 
@@ -41,118 +56,54 @@ namespace AnimaTV.API.Controllers
             {
                 var user = _authService.Auth(login, password, isSave);
 
-                
-
                 _context.Users.Update(user);
 
                 await _context.SaveChangesAsync();
 
                 return Ok(user.Token);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
-                throw;
+                throw new OperationCanceledException(ex.Message);
             }
 
         }
 
-        // GET: api/Users
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
-        {
-            return await _context.Users.ToListAsync();
-        }
-
-        // GET: api/Users/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(string id)
-        {
-            var user = await _context.Users.FindAsync(id);
-
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            return user;
-        }
-
-        // PUT: api/Users/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(string id, User user)
-        {
-            if (id != user.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(user).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UserExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
-        // POST: api/Users
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        [Route("registr")]
+        public async Task<IActionResult> Registration(User user)
         {
-            _context.Users.Add(user);
+            if (!(_errorService as NullReferenceExceptionService).CheckError(new object[] { user }))
+            {
+                throw new NullReferenceException();
+            }
+
             try
             {
+                _context.Users.Add(user);
                 await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                if (UserExists(user.Id))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, user);
+                var token = await Auth(user.NickName, user.Password, false);
+
+                return Ok(token);
+            }
+            catch (Exception ex)
+            {
+                throw new OperationCanceledException(ex.Message);
+            }
         }
 
-        // DELETE: api/Users/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(string id)
+        // TODO: Продумать работу с монго и SQL для обновления инофрмации о пользователе
+        [HttpPut]
+        [Route("updateUserInfo")]
+        public async Task<IActionResult> UpdateUserInfo([FromBody]User updateUser, [FromBody]Address address)
         {
-            var user = await _context.Users.FindAsync(id);
-            if (user == null)
+            if (!(_errorService as NullReferenceExceptionService).CheckError(new object[] { updateUser, address }))
             {
-                return NotFound();
+                throw new NullReferenceException();
             }
 
-            _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool UserExists(string id)
-        {
-            return _context.Users.Any(e => e.Id == id);
         }
     }
 }

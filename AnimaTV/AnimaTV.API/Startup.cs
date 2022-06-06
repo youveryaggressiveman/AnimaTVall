@@ -1,3 +1,5 @@
+using AnimaTV.Core.Services.Errors;
+using AnimaTV.Core.Services.Errors.NullReferenceException;
 using AnimaTV.Persistance.Entity;
 using AnimaTV.Persistance.Services;
 using Microsoft.AspNetCore.Builder;
@@ -28,6 +30,7 @@ namespace AnimaTV.API
             });
 
             services.AddScoped<IAuthService, AuthService>();
+            services.AddSingleton<IErrorService, NullReferenceExceptionService>();
 
 
             services.AddControllers();

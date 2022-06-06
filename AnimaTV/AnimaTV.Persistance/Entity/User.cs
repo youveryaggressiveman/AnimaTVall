@@ -31,13 +31,14 @@ namespace AnimaTV.Persistance.Entity
         public virtual ICollection<UserOfSubscription> UserOfSubscriptions { get; set; }
         public virtual ICollection<UserOfVideo> UserOfVideos { get; set; }
 
-        public static implicit operator AnimaTV.Core.Data.Model.User(User user)
-        {
-            return new AnimaTV.Core.Data.Model.User
-            {
-                NickName = user.NickName,
-                Password = user.Password
-            };
-        }
+        //TODO: Переделать в нормальное преобразование
+        //public implicit operator AnimaTV.Core.Data.Model.User(User user)
+        //{
+        //    return new AnimaTV.Core.Data.Model.User
+        //    {
+        //        NickName = user.NickName,
+        //        Password = user.Password
+        //    };
+        //}
     }
 }

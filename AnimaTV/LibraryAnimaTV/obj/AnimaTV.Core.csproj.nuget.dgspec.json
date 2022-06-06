@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj": {}
+    "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj": {
+    "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj",
+        "projectUniqueName": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj",
         "projectName": "AnimaTV.Core",
-        "projectPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj",
-        "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\obj\\",
+        "projectPath": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj",
+        "packagesPath": "C:\\Users\\повелитель\\.nuget\\packages\\",
+        "outputPath": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\LibraryAnimaTV\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\повелитель\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -49,6 +43,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -66,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

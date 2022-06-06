@@ -1,36 +1,40 @@
-﻿@inherits LayoutComponentBase
-
-<h2>Kargin</h2>
-<input @bind-value="login" />
-<input @bind-value="password" />
-<button @onclick="authCommand">Enter</button>
-<h1>@result</h1>
-
+﻿@using AnimaTV.Application.Model
+@using System.ComponentModel.DataAnnotations
+@using AnimaTV.Application.Controllers.Data
+<h3>AuthLayout</h3>
 
 @code {
-    @using System.Text.Json
-    @using AnimaTV.Persistance.Entity
-    @using System.Text
+    private string _password;
+    private string _login;
 
-    public string login;
-    public string password;
-    public string result;
-    public async void authCommand()
+    private UserController _controller;
+
+    private async void Authorize()
     {
-        using (HttpClient client = new HttpClient())
+        User user = new()
         {
-            var jsonObject = JsonSerializer.Serialize<User>(new User() { NickName = login, Password = password });
-            var url = "https://localhost:44367/api/Users/auth?login=" + login + "&password=" + password;
+            NickName = _login,
+            Password = _password
+        };
 
-            var content = new StringContent(jsonObject, Encoding.UTF8, "application/json");
-            content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+        ValidationContext context = new(user);
+        List<ValidationResult> results = new();
 
-            var stringTask = await client.PostAsync(url, content);
-            
+        if (Validator.TryValidateObject(user, context, results, true))
+        {
+            _controller = new();
 
-            if (stringTask.IsSuccessStatusCode)
+            if (await _controller.Authorize(user))
             {
-                result = await stringTask.Content.ReadAsStringAsync();
+                //Вывод сообщения об успешной авторизации и открытие главного окна
+            }
+            //Вывод что регистрация прошла неверно
+        }
+        else
+        {
+            foreach (var message in results)
+            {
+                //Вывод ошибки валидации
             }
         }
     }

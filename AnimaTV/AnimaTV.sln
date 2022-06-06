@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.Core", "LibraryAnimaTV\AnimaTV.Core.csproj", "{316D8A8A-5222-453A-9D95-23CE4E20F45C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaTV.API", "AnimaTV.API\AnimaTV.API.csproj", "{B7CC6021-572A-489B-887C-62E4AEA3F8FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.API", "AnimaTV.API\AnimaTV.API.csproj", "{B7CC6021-572A-489B-887C-62E4AEA3F8FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaTV.Application", "AnimaTV.Application\AnimaTV.Application.csproj", "{E9428489-6D6D-433C-8260-97DAB6568F27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.Application", "AnimaTV.Application\AnimaTV.Application.csproj", "{E9428489-6D6D-433C-8260-97DAB6568F27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimaTV.Persistance", "AnimaTV.Persistance\AnimaTV.Persistance.csproj", "{FD4AC934-2D0C-4776-B51E-285968623141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.Persistance", "AnimaTV.Persistance\AnimaTV.Persistance.csproj", "{FD4AC934-2D0C-4776-B51E-285968623141}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

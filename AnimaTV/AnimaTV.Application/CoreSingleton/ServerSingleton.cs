@@ -7,7 +7,7 @@ namespace AnimaTV.Application.CoreSingleton
 {
     public static class ServerSingleton
     {
-        private static string _serverLink = "https://localhost:44367/api/";
+        private readonly static string _serverLink = "https://localhost:44367/api/";
 
         public static string GetServerLink() =>
             _serverLink;

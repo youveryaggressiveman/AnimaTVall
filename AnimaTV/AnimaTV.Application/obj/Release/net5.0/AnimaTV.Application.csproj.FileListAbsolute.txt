@@ -78,3 +78,47 @@ C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\obj\Rele
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\obj\Release\net5.0\ref\AnimaTV.Application.dll
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.pdb
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.genruntimeconfig.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\appsettings.Development.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\appsettings.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.StaticWebAssets.xml
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.exe
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.deps.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.runtimeconfig.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.runtimeconfig.dev.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\ref\AnimaTV.Application.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.Views.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\bin\Release\net5.0\AnimaTV.Application.Views.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.csproj.AssemblyReference.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.AssemblyInfoInputs.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.AssemblyInfo.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.csproj.CoreCompileInputs.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.MvcApplicationPartsAssemblyInfo.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.RazorComponent.input.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\RazorDeclaration\App.razor.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\RazorDeclaration\Shared\AuthLayout.razor.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\RazorDeclaration\_Imports.razor.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.RazorComponent.output.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\RazorDeclaration\AnimaTV.Application.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.TagHelpers.input.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.TagHelpers.output.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.RazorCoreGenerate.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\Razor\App.razor.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\Razor\Shared\AuthLayout.razor.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\Razor\_Imports.razor.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\Razor\Pages\Error.cshtml.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\Razor\Pages\_Host.cshtml.g.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.RazorAssemblyInfo.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.RazorAssemblyInfo.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\scopedcss\bundle\AnimaTV.Application.styles.css
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\staticwebassets\AnimaTV.Application.StaticWebAssets.Manifest.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.RazorTargetAssemblyInfo.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.RazorTargetAssemblyInfo.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.Views.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.csproj.CopyComplete
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\ref\AnimaTV.Application.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\obj\Release\net5.0\AnimaTV.Application.genruntimeconfig.cache

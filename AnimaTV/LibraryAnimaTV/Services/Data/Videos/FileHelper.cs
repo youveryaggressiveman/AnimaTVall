@@ -10,7 +10,7 @@ namespace AnimaTV.Core.Services.Data.Videos
     {
         private const string DIR_NAME = @"E:\AnimaTVSource\";
 
-        private DirectoryInfo _directory;
+        private readonly DirectoryInfo _directory;
 
         public FileHelper()
         {

@@ -16,3 +16,18 @@ C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Rele
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\ref\AnimaTV.Persistance.dll
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.pdb
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.genruntimeconfig.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\bin\Release\net5.0\AnimaTV.Persistance.deps.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\bin\Release\net5.0\AnimaTV.Persistance.runtimeconfig.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\bin\Release\net5.0\AnimaTV.Persistance.runtimeconfig.dev.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\bin\Release\net5.0\AnimaTV.Persistance.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\bin\Release\net5.0\ref\AnimaTV.Persistance.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\bin\Release\net5.0\AnimaTV.Persistance.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.csproj.AssemblyReference.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.AssemblyInfoInputs.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.AssemblyInfo.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.csproj.CoreCompileInputs.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\ref\AnimaTV.Persistance.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Persistance\obj\Release\net5.0\AnimaTV.Persistance.genruntimeconfig.cache

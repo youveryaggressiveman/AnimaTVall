@@ -10,3 +10,15 @@ C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Release\n
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.dll
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\ref\AnimaTV.Core.dll
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\bin\Release\net5.0\AnimaTV.Core.deps.json
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\bin\Release\net5.0\AnimaTV.Core.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\bin\Release\net5.0\ref\AnimaTV.Core.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\bin\Release\net5.0\AnimaTV.Core.pdb
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.csproj.AssemblyReference.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.AssemblyInfoInputs.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.AssemblyInfo.cs
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.csproj.CoreCompileInputs.cache
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\ref\AnimaTV.Core.dll
+E:\GG PROGRAMIST\AnimaTV\AnimaTV\LibraryAnimaTV\obj\Release\net5.0\AnimaTV.Core.pdb

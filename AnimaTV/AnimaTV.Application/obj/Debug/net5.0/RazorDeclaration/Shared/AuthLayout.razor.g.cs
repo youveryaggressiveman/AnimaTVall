@@ -13,97 +13,97 @@ namespace AnimaTV.Application.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 1 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 2 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 3 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 4 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 5 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 6 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 7 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 8 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 9 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using AnimaTV.Application;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 10 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
 using AnimaTV.Application.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
-using System.Text.Json;
+#line 1 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+using AnimaTV.Application.Model;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
-using AnimaTV.Persistance.Entity;
+#line 2 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+using System.ComponentModel.DataAnnotations;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
-using System.Text;
+#line 3 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+using AnimaTV.Application.Controllers.Data;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class AuthLayout : LayoutComponentBase
+    public partial class AuthLayout : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -111,28 +111,39 @@ using System.Text;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
-                      
+#line 6 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+       
+    private string _password;
+    private string _login;
 
-    public string login;
-    public string password;
-    public string result;
-    public async void authCommand()
+    private UserController _controller;
+
+    private async void Authorize()
     {
-        using (HttpClient client = new HttpClient())
+        User user = new()
         {
-            var jsonObject = JsonSerializer.Serialize<User>(new User() { NickName = login, Password = password });
-            var url = "https://localhost:44367/api/Users/auth?login=" + login + "&password=" + password;
+            NickName = _login,
+            Password = _password
+        };
 
-            var content = new StringContent(jsonObject, Encoding.UTF8, "application/json");
-            content.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
+        ValidationContext context = new(user);
+        List<ValidationResult> results = new();
 
-            var stringTask = await client.PostAsync(url, content);
-            
+        if (Validator.TryValidateObject(user, context, results, true))
+        {
+            _controller = new();
 
-            if (stringTask.IsSuccessStatusCode)
+            if (await _controller.Authorize(user))
             {
-                result = await stringTask.Content.ReadAsStringAsync();
+                //Вывод сообщения об успешной авторизации и открытие главного окна
+            }
+            //Вывод что регистрация прошла неверно
+        }
+        else
+        {
+            foreach (var message in results)
+            {
+                //Вывод ошибки валидации
             }
         }
     }

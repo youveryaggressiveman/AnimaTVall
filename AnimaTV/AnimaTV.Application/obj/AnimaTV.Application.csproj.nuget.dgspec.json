@@ -1,178 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj": {}
+    "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj": {
+    "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj",
+        "projectUniqueName": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj",
         "projectName": "AnimaTV.Application",
-        "projectPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj",
-        "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Application\\obj\\",
+        "projectPath": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj",
+        "packagesPath": "C:\\Users\\повелитель\\.nuget\\packages\\",
+        "outputPath": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj": {
-                "projectPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj",
-        "projectName": "AnimaTV.Persistance",
-        "projectPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj",
-        "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj": {
-                "projectPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Proxies": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj",
-        "projectName": "AnimaTV.Core",
-        "projectPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\AnimaTV.Core.csproj",
-        "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Админ\\source\\repos\\AnimaTVall\\AnimaTV\\LibraryAnimaTV\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\повелитель\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -197,9 +40,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "System.Drawing.Common": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -213,11 +56,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

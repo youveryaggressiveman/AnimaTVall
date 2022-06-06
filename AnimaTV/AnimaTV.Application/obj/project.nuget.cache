@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jIdGc6l0sRYdOagd2X70nqJf01KWfjAO2lO60gz/pgiBBV2i3aN1QQab8YUHfgiu2z2U9TpNssS8c1kjYqDs7A==",
+  "dgSpecHash": "q3xDA4uomL+1ERX0SNi8fMXbWXREG+LcwYFtCgl28Ye+52KW2rh2BVuhjIWRe73dmAzhQKIokNf2f7lFK+Muiw==",
   "success": true,
-  "projectFilePath": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj",
+  "projectFilePath": "C:\\Users\\Админ\\Source\\Repos\\AnimaTVall\\AnimaTV\\AnimaTV.Application\\AnimaTV.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\повелитель\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\повелитель\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+    "C:\\Users\\Админ\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Админ\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj": {}
+    "C:\\Users\\Админ\\Source\\Repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj": {}
   },
   "projects": {
-    "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj": {
+    "C:\\Users\\Админ\\Source\\Repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\Админ\\Source\\Repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj",
         "projectName": "AnimaTV.Persistance",
-        "projectPath": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj",
-        "packagesPath": "C:\\Users\\повелитель\\.nuget\\packages\\",
-        "outputPath": "E:\\GG PROGRAMIST\\AnimaTV\\AnimaTV\\AnimaTV.Persistance\\obj\\",
+        "projectPath": "C:\\Users\\Админ\\Source\\Repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj",
+        "packagesPath": "C:\\Users\\Админ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Админ\\Source\\Repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\повелитель\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Админ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.1, )"
             }
           },
           "imports": [
@@ -74,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -83,27 +83,34 @@ using AnimaTV.Application.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+#line 1 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
 using AnimaTV.Application.Model;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+#line 2 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
 using System.ComponentModel.DataAnnotations;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+#line 3 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
 using AnimaTV.Application.Controllers.Data;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class AuthLayout : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 4 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
+using AnimaTV.Application.Domain.Builders;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class RegistrLayout : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -111,33 +118,50 @@ using AnimaTV.Application.Controllers.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 6 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+#line 7 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
        
+    private string _nickName;
     private string _password;
-    private string _login;
+    private string _confirmPassword;
+    private string _phone;
+    private string _email;
 
     private UserController _controller;
 
-    private async void Authorize()
+    private async void Registration()
     {
-        User user = new()
+        if (string.IsNullOrWhiteSpace(_password) || string.IsNullOrWhiteSpace(_phone) || string.IsNullOrWhiteSpace(_email))
         {
-            NickName = _login,
-            Password = _password
-        };
+            return;;
+        }
+
+        UserBuilder userBuilder = new();
+        var user = userBuilder
+            .WithNickName(_nickName)
+            .WithPassword(_password)
+            .WithPhone(_phone)
+            .WithEmail(_email)
+            .WithID()
+            .Build();
 
         ValidationContext context = new(user);
         List<ValidationResult> results = new();
 
         if (Validator.TryValidateObject(user, context, results, true))
         {
+            if (!(_password.Equals(_confirmPassword)))
+            {
+                return;
+            }
+
             _controller = new();
 
-            if (await _controller.Authorize(user))
+            if (await _controller.Registration(user))
             {
-                //Вывод сообщения об успешной авторизации и открытие главного окна
+                //Вывод сообщения об успешной регистрации и открытие главного окна
             }
             //Вывод что регистрация прошла неверно
+            
         }
         else
         {

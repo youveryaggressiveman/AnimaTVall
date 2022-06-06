@@ -9,10 +9,11 @@ using AnimaTV.Application.Controllers.Data;
 using AnimaTV.Application.CoreSingleton;
 using AnimaTV.Application.Domain.Builders;
 using AnimaTV.Application.Model;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AnimaTV.Application.Controllers.View
 {
-    public class ProfileViewModel : BaseViewModel
+    public class ProfileViewModel : PageModel
     {
         private readonly UserController _controller;
 
@@ -30,7 +31,6 @@ namespace AnimaTV.Application.Controllers.View
             set
             {
                 _image = value;
-                OnPropertyChanged(nameof(Image));
             }
         }
 
@@ -40,7 +40,6 @@ namespace AnimaTV.Application.Controllers.View
             set
             {
                 _user = value;
-                OnPropertyChanged(nameof(User));
             }
         }
 
@@ -50,7 +49,6 @@ namespace AnimaTV.Application.Controllers.View
             set
             {
                 _addressName = value;
-                OnPropertyChanged(nameof(AddressName));
             }
         }
 
@@ -60,7 +58,6 @@ namespace AnimaTV.Application.Controllers.View
             set
             {
                 _addressNumber = value;
-                OnPropertyChanged(nameof(AddressNumber));
             }
         }
 
@@ -70,7 +67,6 @@ namespace AnimaTV.Application.Controllers.View
             set
             {
                 _city = value;
-                OnPropertyChanged(nameof(City));
             }
         }
 
@@ -80,7 +76,6 @@ namespace AnimaTV.Application.Controllers.View
             set
             {
                 _country = value;
-                OnPropertyChanged(nameof(Country));
             }
         }
 

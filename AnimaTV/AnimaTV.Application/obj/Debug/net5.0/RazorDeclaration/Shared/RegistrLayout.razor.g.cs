@@ -13,98 +13,98 @@ namespace AnimaTV.Application.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 1 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 2 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 3 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 4 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 5 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 6 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 7 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 8 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 9 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using AnimaTV.Application;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\_Imports.razor"
+#line 10 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\_Imports.razor"
 using AnimaTV.Application.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
+#line 1 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
 using AnimaTV.Application.Model;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
+#line 2 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
 using System.ComponentModel.DataAnnotations;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
+#line 3 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
 using AnimaTV.Application.Controllers.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
+#line 4 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
 using AnimaTV.Application.Domain.Builders;
 
 #line default
@@ -118,7 +118,7 @@ using AnimaTV.Application.Domain.Builders;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 7 "E:\GG PROGRAMIST\AnimaTV\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
+#line 7 "C:\Users\Админ\Source\Repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\RegistrLayout.razor"
        
     private string _nickName;
     private string _password;

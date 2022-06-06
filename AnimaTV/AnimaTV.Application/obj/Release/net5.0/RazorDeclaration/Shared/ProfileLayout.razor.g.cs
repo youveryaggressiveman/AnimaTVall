@@ -83,74 +83,47 @@ using AnimaTV.Application.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+#line 1 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\ProfileLayout.razor"
+using AnimaTV.Application.Controllers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\ProfileLayout.razor"
+using AnimaTV.Application.Domain.Builders;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\ProfileLayout.razor"
 using AnimaTV.Application.Model;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
-using System.ComponentModel.DataAnnotations;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
+#line 4 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\ProfileLayout.razor"
 using AnimaTV.Application.Controllers.Data;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class AuthLayout : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 5 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\ProfileLayout.razor"
+using System.ComponentModel.DataAnnotations;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class ProfileLayout : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 6 "C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Application\Shared\AuthLayout.razor"
-       
-    private string _password;
-    private string _login;
-
-    private UserController _controller;
-
-    private async void Authorize()
-    {
-        User user = new()
-        {
-            NickName = _login,
-            Password = _password
-        };
-
-        ValidationContext context = new(user);
-        List<ValidationResult> results = new();
-
-        if (Validator.TryValidateObject(user, context, results, true))
-        {
-            _controller = new();
-
-            if (await _controller.Authorize(user))
-            {
-                //Вывод сообщения об успешной авторизации и открытие главного окна
-            }
-            //Вывод что регистрация прошла неверно
-        }
-        else
-        {
-            foreach (var message in results)
-            {
-                //Вывод ошибки валидации
-            }
-        }
-    }
-
-#line default
-#line hidden
-#nullable disable
     }
 }
 #pragma warning restore 1591

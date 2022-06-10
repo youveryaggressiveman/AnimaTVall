@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kernel", "Kernel", "{D1E5C7E1-43CA-4AF5-9714-250DCE6961DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{BBA2450E-5AE9-4A2B-BFA0-10CD7FE61970}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{090B87BB-DC7C-439D-8EE3-2B6A0ACCB55E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.Core", "LibraryAnimaTV\AnimaTV.Core.csproj", "{316D8A8A-5222-453A-9D95-23CE4E20F45C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.API", "AnimaTV.API\AnimaTV.API.csproj", "{B7CC6021-572A-489B-887C-62E4AEA3F8FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.Application", "AnimaTV.Application\AnimaTV.Application.csproj", "{E9428489-6D6D-433C-8260-97DAB6568F27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimaTV.Persistance", "AnimaTV.Persistance\AnimaTV.Persistance.csproj", "{FD4AC934-2D0C-4776-B51E-285968623141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7CC6021-572A-489B-887C-62E4AEA3F8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7CC6021-572A-489B-887C-62E4AEA3F8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7CC6021-572A-489B-887C-62E4AEA3F8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7CC6021-572A-489B-887C-62E4AEA3F8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9428489-6D6D-433C-8260-97DAB6568F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9428489-6D6D-433C-8260-97DAB6568F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9428489-6D6D-433C-8260-97DAB6568F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9428489-6D6D-433C-8260-97DAB6568F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4AC934-2D0C-4776-B51E-285968623141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4AC934-2D0C-4776-B51E-285968623141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4AC934-2D0C-4776-B51E-285968623141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4AC934-2D0C-4776-B51E-285968623141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{316D8A8A-5222-453A-9D95-23CE4E20F45C} = {D1E5C7E1-43CA-4AF5-9714-250DCE6961DC}
+		{B7CC6021-572A-489B-887C-62E4AEA3F8FC} = {BBA2450E-5AE9-4A2B-BFA0-10CD7FE61970}
+		{E9428489-6D6D-433C-8260-97DAB6568F27} = {090B87BB-DC7C-439D-8EE3-2B6A0ACCB55E}
+		{FD4AC934-2D0C-4776-B51E-285968623141} = {D1E5C7E1-43CA-4AF5-9714-250DCE6961DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852E0AC5-7A4C-4A44-B066-D87F743E965B}
+	EndGlobalSection
+EndGlobal

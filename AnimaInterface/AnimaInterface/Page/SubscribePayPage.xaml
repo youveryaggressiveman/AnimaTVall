@@ -1,0 +1,63 @@
+﻿<Window x:Class="AnimaInterface.Page.SubscribePayPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnimaInterface.Page"
+        mc:Ignorable="d"
+        Title="SubscribePayPage" Height="574" Width="800">
+    <Grid Background="#49021F">
+        <Border Background="Black"
+            BorderBrush="#FF3366"
+                CornerRadius="8"
+            BorderThickness="1" Margin="70,10,525,199">
+            <TextBlock Foreground="#FF3366" HorizontalAlignment="Center"
+                VerticalAlignment="Center"><Run Language="ru-ru" Text="Описание"/></TextBlock>
+        </Border>
+        <Border BorderBrush="#FF3366"
+            BorderThickness="0,5"
+            Height="1"
+            Margin="70,54,525,503"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Foreground="#FF3366" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Margin="135,19,0,0"><Run Language="ru-ru" Text="Название"/></TextBlock>
+        <Border BorderBrush="#FF3366"
+            BorderThickness="0,5"
+            Height="1"
+            Margin="75,314,520,243"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Foreground="#FF3366" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Margin="145,324,0,0"><Run Language="ru-ru" Text="Купить"/></TextBlock>
+        <Border Background="Black"
+            BorderBrush="#FF3366"
+            CornerRadius="8"
+            BorderThickness="1" Margin="320,10,275,119">
+            <TextBlock Foreground="#FF3366" HorizontalAlignment="Center"
+                VerticalAlignment="Center"><Run Language="ru-ru" Text="Описание"/></TextBlock>
+        </Border>
+        <Border Background="Black"
+            BorderBrush="#FF3366"
+            CornerRadius="8"
+            BorderThickness="1" Margin="560,10,35,10">
+            <TextBlock Foreground="#FF3366" HorizontalAlignment="Center"
+                VerticalAlignment="Center"><Run Language="ru-ru" Text="Описание"/></TextBlock>
+        </Border>
+        <Border BorderBrush="#FF3366"
+            BorderThickness="0,5"
+            Height="1"
+            Margin="320,54,275,503"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Foreground="#FF3366" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Margin="390,19,0,0"><Run Language="ru-ru" Text="Название"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="20" Foreground="#FF3366" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Margin="630,23,0,0"><Run Language="ru-ru" Text="Название"/></TextBlock>
+        <Border BorderBrush="#FF3366"
+            BorderThickness="0,5"
+            Height="1"
+            Margin="560,54,35,503"/>
+        <Border BorderBrush="#FF3366"
+            BorderThickness="0,5"
+            Height="1"
+            Margin="320,394,275,163"/>
+        <Border BorderBrush="#FF3366"
+            BorderThickness="0,5"
+            Height="1"
+            Margin="560,504,35,53"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Foreground="#FF3366" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Margin="400,404,0,0"><Run Language="ru-ru" Text="Купить"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="20" Foreground="#FF3366" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="85" Margin="645,514,0,0"><Run Language="ru-ru" Text="Купить"/></TextBlock>
+
+    </Grid>
+</Window>

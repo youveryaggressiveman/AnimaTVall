@@ -1,0 +1,144 @@
+.body{
+    width: auto;
+    display: flex;
+    font-family: "Nunito Sans";
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    z-index: 1;
+    background-color: black;
+}
+
+.body::before{
+    z-index:-1;
+    opacity: 0.8;
+    right: 0px;
+    position: absolute;
+    content: url(http://www.factroom.ru/facts/59204/attachment/59228);
+}
+
+.header{
+    width: auto;
+    height: 100px;
+    position: relative;
+    align-self: stretch;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: #490220a8;
+    border-bottom: 0.9px solid #FF3366;
+}
+.headerButton{
+    float: right;
+    display: inline;
+    position: relative;
+    color: #49021F;
+}
+.headerButton h1{
+    float: right;
+    padding: 15px;
+    display: inline;
+}
+.headerButton h1:hover{
+    color: #FF3366;
+    cursor: pointer;
+}
+.logo{
+    left: 0px;
+    display: inline;
+    padding: 15px;
+    position: relative;
+    color: #49021F 
+}
+.auth{
+    margin: 40px;
+    height: 500px;
+    width: 650px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #49022083;
+    padding: 50px;
+    border: 2px solid #FF3366;
+    border-width: 1px;
+    border-radius: 8px;
+}
+.auth p{
+    cursor:default;
+}
+.auth h1{
+    cursor:default;
+}
+.footer{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-self: center;
+    justify-content: end;
+    color: #FF3366;
+    font-size: 15px;
+}
+
+img{
+    position: absolute;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    transform: rotate(90);
+}
+
+.border{ 
+    border-radius: 3px;
+    border: 1px solid #FF3366;
+    height: 0,5px;
+    margin: 50px auto;
+    width: auto;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+.button{
+    background-color: #ff336633;
+    color: black;
+    width: 200px;
+    border-radius: 6px;
+    height: 40px;
+    float: right;
+    border: 1px  solid #FF3366;
+}
+.authCenter{
+    display: block;
+}
+.authCenter input{
+    border-radius: 3px;
+    display: block;
+    margin-top: -15px;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 25px;
+}
+.authCenter p{
+    font-size: 25px;
+    display: block;
+    color: #FF3366;
+}
+.authBot{
+    display: block;
+    width: 600px;
+}
+.authTop{
+    font-size: 25px;
+    color: black
+}
+.authTop p:active{
+    color: #FF3366;
+    text-decoration: solid underline #FF3366;
+}
+.authTop p:hover{
+    cursor: pointer;
+}
+.authTop p{
+    float: left;
+    margin: 10px;
+}

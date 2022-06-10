@@ -1,9 +1,0 @@
-Основной цвет:#49021F
-Доп цвет:#FF3366
-
-videos
-rigths?
-addresses
-comments
-subscribers
-

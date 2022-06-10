@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Driver;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,7 @@ namespace AnimaTV.Persistance.Mongo
         public static string GetDatabase() =>
             s_database;
 
-        public static string GetConnectionLink() =>
-           s_connectionLink;
+        public static MongoClient GetClient() =>
+           new MongoClient(s_connectionLink);
     }
 }

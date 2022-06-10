@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using AnimaTV.Core.Services.Errors;
 using AnimaTV.Core.Services.Errors.NullReferenceException;
 using AnimaTV.Persistance.Mongo.Model;
+using AnimaTV.Persistance.Mongo.Service;
+using AnimaTV.Persistance.Mongo;
+using MongoDB.Driver;
 
 namespace AnimaTV.API.Controllers
 {
@@ -19,12 +22,15 @@ namespace AnimaTV.API.Controllers
         private readonly animatv_kernelContext _context;
         private readonly IAuthService _authService;
         private readonly IErrorService _errorService;
+        private readonly IMongoBaseService<Address> _mongoAddressService;
 
         public UsersController(animatv_kernelContext context, IAuthService authService, IErrorService errorService)
         {
             _context = context;
             _authService = authService;
             _errorService = errorService;
+
+            _mongoAddressService = new MongoBaseService<Address>(DocumentSingleton.GetClient(), DocumentSingleton.GetDatabase(), "Address");
         }
 
         [Route("getUserByToken")]

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AnimaTV.Persistance.Mongo.Service
 {
-    interface IMongoBaseService<T> where T: class, IDocument
+    public interface IMongoBaseService<T> where T: class, IDocument
     {
         IQueryable<T> GetAll();
         Task<T> Put(T document);

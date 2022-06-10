@@ -1,6 +1,7 @@
 using AnimaTV.Core.Services.Errors;
 using AnimaTV.Core.Services.Errors.NullReferenceException;
 using AnimaTV.Persistance.Entity;
+using AnimaTV.Persistance.Mongo.Service;
 using AnimaTV.Persistance.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

@@ -13,6 +13,3 @@ C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Debu
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Debug\net5.0\ref\AnimaTV.Persistance.dll
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Debug\net5.0\AnimaTV.Persistance.pdb
 C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Debug\net5.0\AnimaTV.Persistance.genruntimeconfig.cache
-C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\bin\Debug\net5.0\AnimaTV.Core.dll
-C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\bin\Debug\net5.0\AnimaTV.Core.pdb
-C:\Users\Админ\source\repos\AnimaTVall\AnimaTV\AnimaTV.Persistance\obj\Debug\net5.0\AnimaTV.Persistance.csproj.CopyComplete

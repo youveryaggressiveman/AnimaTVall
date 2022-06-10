@@ -131,6 +131,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.17, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.16.0, )"
             }
           },
           "imports": [

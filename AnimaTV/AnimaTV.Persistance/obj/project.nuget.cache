@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+b0Fk7bdhksZVUaUsn5n6mcYnpXyiKOh2mRBvwNDmwtLf1B4xDtuxIXHmkXi8jFzhN+ARaMf8aa2QUxq6eiRw==",
+  "dgSpecHash": "rtleHb5gSCDFi7vC1Dt/WPiXIEJc6R+dOVLK/yh44FpRbI7x39FRGhAqN25Y1DFtMoVdCtlUYsicYmyv9Xspwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Админ\\Source\\Repos\\AnimaTVall\\AnimaTV\\AnimaTV.Persistance\\AnimaTV.Persistance.csproj",
   "expectedPackageFiles": [
@@ -38,10 +38,10 @@
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
-    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.driver\\2.15.1\\mongodb.driver.2.15.1.nupkg.sha512",
-    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.driver.core\\2.15.1\\mongodb.driver.core.2.15.1.nupkg.sha512",
-    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.bson\\2.16.0\\mongodb.bson.2.16.0.nupkg.sha512",
+    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.driver\\2.16.0\\mongodb.driver.2.16.0.nupkg.sha512",
+    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.driver.core\\2.16.0\\mongodb.driver.core.2.16.0.nupkg.sha512",
+    "C:\\Users\\Админ\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.2\\mongodb.libmongocrypt.1.5.2.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
     "C:\\Users\\Админ\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
